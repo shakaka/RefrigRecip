@@ -14,29 +14,29 @@
         android:layout_gravity="center_horizontal">
 
         <Button
-            android:layout_width="@dimen/btn_width_refrig"
-            android:layout_height="@dimen/btn_height_refrig"
+            android:layout_width="@dimen/btn_width_uni"
+            android:layout_height="@dimen/btn_height_uni"
             android:text="@string/bnt_text_meat"
             android:id="@+id/btnMeat"
-            android:layout_margin="@dimen/btn_margin_all_refrig"
+            android:layout_margin="@dimen/btn_margin_uni"
             android:layout_gravity="center_vertical"
             android:onClick="onMeatClick"/>
 
         <Button
-            android:layout_width="@dimen/btn_width_refrig"
-            android:layout_height="@dimen/btn_height_refrig"
+            android:layout_width="@dimen/btn_width_uni"
+            android:layout_height="@dimen/btn_height_uni"
             android:text="@string/btn_text_vege"
             android:id="@+id/btnVege"
-            android:layout_margin="@dimen/btn_margin_all_refrig"
+            android:layout_margin="@dimen/btn_margin_uni"
             android:layout_gravity="center_vertical"
             android:onClick="onVegeClick"/>
 
         <Button
-            android:layout_width="@dimen/btn_width_refrig"
-            android:layout_height="@dimen/btn_height_refrig"
+            android:layout_width="@dimen/btn_width_uni"
+            android:layout_height="@dimen/btn_height_uni"
             android:text="@string/btn_text_fruit"
             android:id="@+id/btnFruit"
-            android:layout_margin="@dimen/btn_margin_all_refrig"
+            android:layout_margin="@dimen/btn_margin_uni"
             android:layout_gravity="center_vertical"
             android:onClick="onFruitClick"/>
     </LinearLayout>
@@ -48,29 +48,29 @@
         android:layout_gravity="center_horizontal" >
 
         <Button
-            android:layout_width="@dimen/btn_width_refrig"
-            android:layout_height="@dimen/btn_height_refrig"
+            android:layout_width="@dimen/btn_width_uni"
+            android:layout_height="@dimen/btn_height_uni"
             android:text="@string/btn_text_grain"
             android:id="@+id/btnGrain"
-            android:layout_margin="@dimen/btn_margin_all_refrig"
+            android:layout_margin="@dimen/btn_margin_uni"
             android:layout_gravity="center_vertical"
             android:onClick="onGrainClick"/>
 
         <Button
-            android:layout_width="@dimen/btn_width_refrig"
-            android:layout_height="@dimen/btn_height_refrig"
+            android:layout_width="@dimen/btn_width_uni"
+            android:layout_height="@dimen/btn_height_uni"
             android:text="@string/btn_text_dairy"
             android:id="@+id/btnDairy"
-            android:layout_margin="@dimen/btn_margin_all_refrig"
+            android:layout_margin="@dimen/btn_margin_uni"
             android:layout_gravity="center_vertical"
             android:onClick="onDairyClick"/>
 
         <Button
-            android:layout_width="@dimen/btn_width_refrig"
-            android:layout_height="@dimen/btn_height_refrig"
+            android:layout_width="@dimen/btn_width_uni"
+            android:layout_height="@dimen/btn_height_uni"
             android:text="@string/btn_text_beverage"
             android:id="@+id/btnBeverage"
-            android:layout_margin="@dimen/btn_margin_all_refrig"
+            android:layout_margin="@dimen/btn_margin_uni"
             android:onClick="onBeverageClick"/>
     </LinearLayout>
 
@@ -81,28 +81,28 @@
         android:layout_gravity="center_horizontal" >
 
         <Button
-            android:layout_width="@dimen/btn_width_refrig"
-            android:layout_height="@dimen/btn_height_refrig"
+            android:layout_width="@dimen/btn_width_uni"
+            android:layout_height="@dimen/btn_height_uni"
             android:text="@string/btn_text_condiment"
             android:id="@+id/btnCondiment"
-            android:layout_margin="@dimen/btn_margin_all_refrig"
+            android:layout_margin="@dimen/btn_margin_uni"
             android:layout_gravity="center_vertical"
             android:onClick="onCondimentClick"/>
 
         <Button
-            android:layout_width="@dimen/btn_width_refrig"
-            android:layout_height="@dimen/btn_height_refrig"
+            android:layout_width="@dimen/btn_width_uni"
+            android:layout_height="@dimen/btn_height_uni"
             android:text="New Button"
             android:id="@+id/button8"
-            android:layout_margin="@dimen/btn_margin_all_refrig"
+            android:layout_margin="@dimen/btn_margin_uni"
             android:visibility="invisible" />
 
         <Button
-            android:layout_width="@dimen/btn_width_refrig"
-            android:layout_height="@dimen/btn_height_refrig"
+            android:layout_width="@dimen/btn_width_uni"
+            android:layout_height="@dimen/btn_height_uni"
             android:text="New Button"
             android:id="@+id/button9"
-            android:layout_margin="@dimen/btn_margin_all_refrig"
+            android:layout_margin="@dimen/btn_margin_uni"
             android:visibility="invisible" />
     </LinearLayout>
 
@@ -113,27 +113,27 @@
         android:layout_gravity="center_horizontal" >
 
         <Button
-            android:layout_width="@dimen/btn_width_refrig"
-            android:layout_height="@dimen/btn_height_refrig"
+            android:layout_width="@dimen/btn_width_uni"
+            android:layout_height="@dimen/btn_height_uni"
             android:text="New Button"
             android:id="@+id/button10"
-            android:layout_margin="@dimen/btn_margin_all_refrig"
+            android:layout_margin="@dimen/btn_margin_uni"
             android:visibility="invisible" />
 
         <Button
-            android:layout_width="@dimen/btn_width_refrig"
-            android:layout_height="@dimen/btn_height_refrig"
+            android:layout_width="@dimen/btn_width_uni"
+            android:layout_height="@dimen/btn_height_uni"
             android:text="New Button"
             android:id="@+id/button11"
-            android:layout_margin="@dimen/btn_margin_all_refrig"
+            android:layout_margin="@dimen/btn_margin_uni"
             android:visibility="invisible" />
 
         <Button
-            android:layout_width="@dimen/btn_width_refrig"
-            android:layout_height="@dimen/btn_height_refrig"
+            android:layout_width="@dimen/btn_width_uni"
+            android:layout_height="@dimen/btn_height_uni"
             android:text="New Button"
             android:id="@+id/button12"
-            android:layout_margin="@dimen/btn_margin_all_refrig"
+            android:layout_margin="@dimen/btn_margin_uni"
             android:visibility="invisible" />
     </LinearLayout>
 

@@ -29,4 +29,6 @@
     <string name="btn_text_beef">Beef</string>
     <string name="btn_text_pork">Pork</string>
     <string name="btn_text_chicken">Chicken</string>
+    <string name="btn_text_duck">Duck</string>
+    <string name="btn_text_lamb">Lamb</string>
 </resources>
