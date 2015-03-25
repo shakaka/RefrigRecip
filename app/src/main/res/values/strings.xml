@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">RefrigRecip</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Main activity-->
+    <string name="btn_text_refrig">Refrigerator</string>
+    <string name="btn_text_recip">Recipe</string>
+    <string name="title_activity_refrig">RefrigActivity</string>
+    <string name="title_activity_recip">RecipActivity</string>
+    <!--Refrig activity-->
+    <string name="bnt_text_meat">Meat or Fish</string>
+    <string name="btn_text_vege">Vegetable</string>
+    <string name="btn_text_fruit">Fruit</string>
+    <string name="btn_text_grain">Grains, beans or legumes</string>
+    <string name="btn_text_dairy">Dairy</string>
+    <string name="btn_text_beverage">Beverage</string>
+    <string name="btn_text_condiment">Condiment</string>
+    <string name="title_activity_refrig_meat">RefrigMeat</string>
+    <string name="title_activity_refrig_fruit">RefrigFruit</string>
+    <string name="title_activity_refrig_vege">RefrigVege</string>
+    <string name="title_activity_refrig_dairy">RefrigDairy</string>
+    <string name="title_activity_refrig_grain">RefrigGrain</string>
+    <string name="title_activity_refrig_beverage">RefrigBeverage</string>
+    <string name="title_activity_refrig_condiment">RefrigCondiment</string>
+
+    <!--Meat Activity-->
+    <string name="btn_text_beef">Beef</string>
+    <string name="btn_text_pork">Pork</string>
+    <string name="btn_text_chicken">Chicken</string>
+</resources>
