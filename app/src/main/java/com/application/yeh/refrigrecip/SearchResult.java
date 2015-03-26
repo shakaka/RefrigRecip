@@ -1,26 +1,24 @@
 package com.application.yeh.refrigrecip;
 
-import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 
 
-public class RefrigMeat extends ActionBarActivity {
+public class SearchResult extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_refrig_meat);
+        setContentView(R.layout.activity_search_result);
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_refrig_meat, menu);
+        getMenuInflater().inflate(R.menu.menu_search_result, menu);
         return true;
     }
 
@@ -37,22 +35,5 @@ public class RefrigMeat extends ActionBarActivity {
         }
 
         return super.onOptionsItemSelected(item);
-    }
-
-    public void onBeefClick(View view) {
-//        Intent intent = new Intent(this, MeatBeef.class);
-//        startActivity(intent);
-    }
-
-    public void onPorkClick(View view) {
-    }
-
-    public void onChickenClick(View view) {
-    }
-
-    public void onDuckClick(View view) {
-    }
-
-    public void onLambClick(View view) {
     }
 }

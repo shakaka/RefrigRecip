@@ -52,6 +52,10 @@
             android:name=".RefrigCondiment"
             android:label="@string/title_activity_refrig_condiment" >
         </activity>
+        <activity
+            android:name=".SearchResult"
+            android:label="@string/title_activity_search_result" >
+        </activity>
     </application>
 
 </manifest>

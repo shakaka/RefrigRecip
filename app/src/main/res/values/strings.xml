@@ -32,4 +32,5 @@
     <string name="btn_text_duck">Duck</string>
     <string name="btn_text_lamb">Lamb</string>
     <string name="btn_text_fish">Fish</string>
+    <string name="title_activity_search_result">SearchResult</string>
 </resources>
