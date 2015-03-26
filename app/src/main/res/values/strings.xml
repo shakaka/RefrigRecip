@@ -31,4 +31,5 @@
     <string name="btn_text_chicken">Chicken</string>
     <string name="btn_text_duck">Duck</string>
     <string name="btn_text_lamb">Lamb</string>
+    <string name="btn_text_fish">Fish</string>
 </resources>
