@@ -6,6 +6,15 @@ import android.widget.BaseAdapter;
 
 
 public class ResultAdapter extends BaseAdapter {
+
+
+
+
+
+
+
+
+
     @Override
     public int getCount() {
         return 0;
