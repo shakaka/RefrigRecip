@@ -20,7 +20,8 @@
             android:id="@+id/btnBeef"
             android:layout_margin="@dimen/btn_margin_uni"
             android:visibility="visible"
-            android:layout_gravity="center_vertical" />
+            android:layout_gravity="center_vertical"
+            android:onClick="onBeefClick"/>
 
         <Button
             android:layout_width="@dimen/btn_width_uni"
@@ -29,7 +30,8 @@
             android:id="@+id/btnPork"
             android:layout_margin="@dimen/btn_margin_uni"
             android:visibility="visible"
-            android:layout_gravity="center_vertical" />
+            android:layout_gravity="center_vertical"
+            android:onClick="onPorkClick"/>
 
         <Button
             android:layout_width="@dimen/btn_width_uni"
@@ -37,7 +39,8 @@
             android:text="@string/btn_text_chicken"
             android:id="@+id/btnChicken"
             android:layout_margin="@dimen/btn_margin_uni"
-            android:visibility="visible" />
+            android:visibility="visible"
+            android:onClick="onChickenClick"/>
     </LinearLayout>
 
     <LinearLayout
@@ -53,7 +56,8 @@
             android:id="@+id/btnDuck"
             android:layout_margin="@dimen/btn_margin_uni"
             android:visibility="visible"
-            android:layout_gravity="center_vertical" />
+            android:layout_gravity="center_vertical"
+            android:onClick="onDuckClick"/>
 
         <Button
             android:layout_width="@dimen/btn_width_uni"
@@ -61,15 +65,16 @@
             android:text="@string/btn_text_lamb"
             android:id="@+id/btnLamb"
             android:layout_margin="@dimen/btn_margin_uni"
-            android:visibility="visible" />
+            android:visibility="visible"
+            android:onClick="onLambClick"/>
 
         <Button
             android:layout_width="@dimen/btn_width_uni"
             android:layout_height="@dimen/btn_height_uni"
-            android:text="New Button"
-            android:id="@+id/button6"
+            android:text="@string/btn_text_fish"
+            android:id="@+id/btnFish"
             android:layout_margin="@dimen/btn_margin_uni"
-            android:visibility="invisible"
+            android:visibility="visible"
             android:layout_gravity="center_vertical" />
     </LinearLayout>
 
