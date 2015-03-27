@@ -1,14 +1,29 @@
 package com.application.yeh.refrigrecip;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Vector;
 
 public class Recipes {
+    private byte[] image;
     private String name;
-    private Vector<Ingredients> ingredList = new Vector<>();
+    private List<Ingredients> ingredList = new Vector<>();
 
-    public Recipes(String name, Vector<Ingredients> ingredList) {
+    public Recipes(byte[] image, String name, List<Ingredients> ingredList) {
+        this.image = image;
         this.name = name;
+        this.ingredList = ingredList;
+    }
+
+    public byte[] getImage() {
+        return image;
+    }
+
+    public void setImage(byte[] image) {
+        this.image = image;
+    }
+
+    public void setIngredList(List<Ingredients> ingredList) {
         this.ingredList = ingredList;
     }
 
@@ -20,7 +35,7 @@ public class Recipes {
         this.name = name;
     }
 
-    public Vector<Ingredients> getIngredList() {
+    public List<Ingredients> getIngredList() {
         return ingredList;
     }
 
