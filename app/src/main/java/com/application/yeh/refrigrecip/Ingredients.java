@@ -4,11 +4,21 @@ public class Ingredients {
     private String name;
     private double number;
     private String unit;
+    private byte[] image;
 
-    public Ingredients(String name, double number, String unit) {
+    public Ingredients(String name, double number, String unit, byte[] image) {
         this.name = name;
         this.number = number;
         this.unit = unit;
+        this.image = image;
+    }
+
+    public byte[] getImage() {
+        return image;
+    }
+
+    public void setImage(byte[] image) {
+        this.image = image;
     }
 
     public String getName() {
