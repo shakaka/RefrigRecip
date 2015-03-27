@@ -1,23 +1,27 @@
 package com.application.yeh.refrigrecip;
 
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 
-
-public class ResultAdapter extends BaseAdapter {
-
-
+import java.util.ArrayList;
+import java.util.List;
 
 
+public class RecipeAdapter extends BaseAdapter {
 
+    LayoutInflater layoutInflater;
+    List list =new ArrayList();
 
-
-
+    public RecipeAdapter(LayoutInflater layoutInflater, List list) {
+        this.layoutInflater = layoutInflater;
+        this.list = list;
+    }
 
     @Override
     public int getCount() {
-        return 0;
+        return list.size();
     }
 
     @Override
